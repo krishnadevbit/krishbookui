@@ -89,7 +89,10 @@ const Topics = () => {
             A creative agency that lead and inspire
           </div>
           <h2 className={cn("h2", styles.title)}>Popular topics</h2>
-          <Link className={cn("button", styles.button)} to="/messages">
+          <Link
+            className={cn("button", styles.button)}
+            to="/krishbookui/messages"
+          >
             Send message
           </Link>
         </div>

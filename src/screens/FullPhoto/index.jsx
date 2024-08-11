@@ -6,6 +6,17 @@ import Icon from "../../components/Icon";
 import { Link } from "react-router-dom";
 import Masonry from "react-masonry-css";
 
+// Import images
+import photo21 from "/images/content/photo-2.1.jpg";
+import photo22 from "/images/content/photo-2.2.jpg";
+import photo26 from "/images/content/photo-2.6.jpg";
+import photo23 from "/images/content/photo-2.3.jpg";
+import photo27 from "/images/content/photo-2.7.jpg";
+import photo24 from "/images/content/photo-2.4.jpg";
+import photo28 from "/images/content/photo-2.8.jpg";
+import photo25 from "/images/content/photo-2.5.jpg";
+import photo29 from "/images/content/photo-2.9.jpg";
+
 const breakpointCols = {
   default: 2,
   768: 1,
@@ -14,15 +25,15 @@ const breakpointCols = {
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Stays",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "New Zealand",
-    url: "/stays-category",
+    url: "/krishbookui/stays-category",
   },
   {
     title: "South Island",
@@ -30,15 +41,15 @@ const breadcrumbs = [
 ];
 
 const gallery = [
-  "/images/content/photo-2.1.jpg",
-  "/images/content/photo-2.2.jpg",
-  "/images/content/photo-2.6.jpg",
-  "/images/content/photo-2.3.jpg",
-  "/images/content/photo-2.7.jpg",
-  "/images/content/photo-2.4.jpg",
-  "/images/content/photo-2.8.jpg",
-  "/images/content/photo-2.5.jpg",
-  "/images/content/photo-2.9.jpg",
+  photo21,
+  photo22,
+  photo26,
+  photo23,
+  photo27,
+  photo24,
+  photo28,
+  photo25,
+  photo29,
 ];
 
 const options = [
@@ -90,7 +101,7 @@ const FullPhoto = () => {
           </div>
           <div className={styles.foot}>
             <Link
-              to="/stays-product"
+              to="/krishbookui/stays-product"
               className={cn("button-circle-stroke button-small", styles.button)}
             >
               <Icon name="close" size="24" />

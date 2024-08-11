@@ -5,6 +5,8 @@ import styles from "./Main.module.sass";
 import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateRange from "../../../components/DateRange";
+import mobile from "/images/content/main-pic-mobile-4.jpg";
+import mainpic from "/images/content/main-pic-4.jpg";
 
 const Main = () => {
   return (
@@ -12,18 +14,18 @@ const Main = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.preview}>
           <picture>
-            <source
-              media="(max-width: 767px)"
-              srcSet="/images/content/main-pic-mobile-4.jpg"
-            />
-            <img src="/images/content/main-pic-4.jpg" alt="Main" />
+            <source media="(max-width: 767px)" srcSet={mobile} />
+            <img src={mainpic} alt="Main" />
           </picture>
           <div className={styles.wrap}>
             <h1 className={cn("hero", styles.title)}>Car rentals</h1>
             <div className={cn("info", styles.info)}>
               Find and book a great experience.
             </div>
-            <Link className={cn("button", styles.button)} to="/cars-category">
+            <Link
+              className={cn("button", styles.button)}
+              to="/krishbookui/cars-category"
+            >
               Start your search
             </Link>
           </div>

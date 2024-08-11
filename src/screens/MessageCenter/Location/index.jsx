@@ -3,7 +3,9 @@ import cn from "classnames";
 import styles from "./Location.module.sass";
 import { Link } from "react-router-dom";
 import Icon from "../../../components/Icon";
-
+import locationx from "/images/content/location-photo@2x.jpg";
+import location from "/images/content/location-photo.jpg";
+import av1 from "/images/content/avatar-1.jpg";
 const items = [
   {
     title: "May 15, 2021",
@@ -34,13 +36,13 @@ const Location = ({ className }) => {
       <div className={styles.wrapper}>
         <div className={styles.preview}>
           <img
-            srcSet="/images/content/location-photo@2x.jpg"
-            src="/images/content/location-photo.jpg"
+            srcSet={locationx}
+            src={location}
             alt="Spectacular views of Queenstown"
           />
           <Link
             className={cn("button-white button-small", styles.button)}
-            to="/full-photo"
+            to="/krishbookui/full-photo"
           >
             <Icon name="image" size="16" />
             <span>Show all photos</span>
@@ -51,7 +53,7 @@ const Location = ({ className }) => {
           <div className={styles.profile}>
             <span>Hosted by</span>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar-1.jpg" alt="Avatar" />
+              <img src={av1} alt="Avatar" />
             </div>
             <div className={styles.name}>Zoe Towne</div>
           </div>
@@ -86,7 +88,7 @@ const Location = ({ className }) => {
           </div>
           <Link
             className={cn("button-stroke button-small", styles.button)}
-            to="/cars-product"
+            to="/krishbookui/cars-product"
           >
             View detail
           </Link>

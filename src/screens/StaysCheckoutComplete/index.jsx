@@ -8,11 +8,11 @@ import CheckoutComplete from "../../components/CheckoutComplete";
 const breadcrumbs = [
   {
     title: "Spectacular views of Queenstown",
-    url: "/stays-product",
+    url: "/krishbookui/stays-product",
   },
   {
     title: "Confirm and pay",
-    url: "/stays-checkout",
+    url: "/krishbookui/stays-checkout",
   },
   {
     title: "Checkout completed",

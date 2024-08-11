@@ -11,26 +11,28 @@ import Icon from "../Icon";
 import Modal from "../Modal";
 import Login from "../Login";
 import Theme from "../Theme";
+import logodark from "/images/logo-dark.svg";
+import logoLight from "/images/logo-light.svg";
 
 const travelers = [
   {
     title: "Stays",
-    url: "/",
+    url: "/krishbookui/",
     icon: "comment",
   },
   {
     title: "Flights",
-    url: "/flights",
+    url: "/krishbookui/flights",
     icon: "email",
   },
   {
     title: "Things to do",
-    url: "/things-to-do",
+    url: "/krishbookui/things-to-do",
     icon: "home",
   },
   {
     title: "Cars",
-    url: "/cars",
+    url: "/krishbookui/cars",
     icon: "email",
   },
 ];
@@ -64,17 +66,17 @@ const items = [
       {
         title: "Messages",
         icon: "comment",
-        url: "/messages",
+        url: "/krishbookui/messages",
       },
       {
         title: "Bookings",
         icon: "home",
-        url: "/bookings",
+        url: "/krishbookui/bookings",
       },
       {
         title: "Wishlists",
         icon: "email",
-        url: "/wishlists",
+        url: "/krishbookui/wishlists",
       },
     ],
   },
@@ -83,12 +85,12 @@ const items = [
       {
         title: "List your property",
         icon: "building",
-        url: "/list-your-property",
+        url: "/krishbookui/list-your-property",
       },
       {
         title: "Host an experience",
         icon: "flag",
-        url: "/your-trips",
+        url: "/krishbookui/your-trips",
       },
     ],
   },
@@ -108,11 +110,11 @@ const Header = ({ separatorHeader, wide, notAuthorized }) => {
         )}
       >
         <div className={cn("container", styles.container)}>
-          <Link className={styles.logo} to="/">
+          <Link className={styles.logo} to="/krishbookui">
             <Image
               className={styles.pic}
-              src="/images/logo-dark.svg"
-              srcDark="/images/logo-light.svg"
+              src={logodark}
+              srcDark={logoLight}
               alt="KRISHBOOK"
             />
           </Link>
@@ -130,7 +132,7 @@ const Header = ({ separatorHeader, wide, notAuthorized }) => {
               className={({ isActive }) =>
                 cn(styles.link, { [styles.active]: isActive })
               }
-              to="/support"
+              to="/krishbookui/support"
             >
               Support
             </NavLink>
@@ -141,7 +143,7 @@ const Header = ({ separatorHeader, wide, notAuthorized }) => {
                   [styles.active]: isActive,
                 })
               }
-              to="/list-your-property"
+              to="/krishbookui/list-your-property"
             >
               List your property
             </NavLink>

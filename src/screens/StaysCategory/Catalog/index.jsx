@@ -13,15 +13,15 @@ import { stays } from "../../../mocks/stays";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Stays",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "New Zealand",
-    url: "/stays-category",
+    url: "/krishbookui/stays-category",
   },
   {
     title: "South Island",

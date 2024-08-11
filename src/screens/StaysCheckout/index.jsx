@@ -8,7 +8,7 @@ import PriceDetails from "../../components/PriceDetails";
 const breadcrumbs = [
   {
     title: "Spectacular views of Queenstown",
-    url: "/stays-product",
+    url: "/krishbookui/stays-product",
   },
   {
     title: "Confirm and pay",

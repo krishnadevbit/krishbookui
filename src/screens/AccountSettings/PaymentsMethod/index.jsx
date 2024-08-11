@@ -3,14 +3,15 @@ import cn from "classnames";
 import styles from "./PaymentsMethod.module.sass";
 import TextInput from "../../../components/TextInput";
 import Checkbox from "../../../components/Checkbox";
-
+import visa from "/images/content/visa.svg";
+import master from "/images/content/master-card.svg";
 const cards = [
   {
-    image: "./images/content/visa.svg",
+    image: visa,
     alt: "Visa",
   },
   {
-    image: "./images/content/master-card.svg",
+    image: master,
     alt: "Master Card",
   },
 ];

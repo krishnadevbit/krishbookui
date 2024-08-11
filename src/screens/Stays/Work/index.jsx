@@ -3,33 +3,49 @@ import cn from "classnames";
 import styles from "./Work.module.sass";
 import Image from "../../../components/Image";
 
+// Import images
+import workPic1 from "/images/content/work-pic-1.png";
+import workPic1x2 from "/images/content/work-pic-1@2x.png";
+import workPicDark1 from "/images/content/work-pic-dark-1.png";
+import workPicDark1x2 from "/images/content/work-pic-dark-1@2x.png";
+
+import workPic2 from "/images/content/work-pic-2.png";
+import workPic2x2 from "/images/content/work-pic-2@2x.png";
+import workPicDark2 from "/images/content/work-pic-dark-2.png";
+import workPicDark2x2 from "/images/content/work-pic-dark-2@2x.png";
+
+import workPic3 from "/images/content/work-pic-3.png";
+import workPic3x2 from "/images/content/work-pic-3@2x.png";
+import workPicDark3 from "/images/content/work-pic-dark-3.png";
+import workPicDark3x2 from "/images/content/work-pic-dark-3@2x.png";
+
 const items = [
   {
     title: "Book & relax",
     content:
       "We realize ideas from simple to complex, everything becomes easy to use.",
-    src: "/images/content/work-pic-1.png",
-    srcSet: "/images/content/work-pic-1@2x.png",
-    srcDark: "/images/content/work-pic-dark-1.png",
-    srcSetDark: "/images/content/work-pic-dark-1@2x.png",
+    src: workPic1,
+    srcSet: workPic1x2,
+    srcDark: workPicDark1,
+    srcSetDark: workPicDark1x2,
   },
   {
     title: "Smart checklist",
     content:
       "We realize ideas from simple to complex, everything becomes easy to use.",
-    src: "/images/content/work-pic-2.png",
-    srcSet: "/images/content/work-pic-2@2x.png",
-    srcDark: "/images/content/work-pic-dark-2.png",
-    srcSetDark: "/images/content/work-pic-dark-2@2x.png",
+    src: workPic2,
+    srcSet: workPic2x2,
+    srcDark: workPicDark2,
+    srcSetDark: workPicDark2x2,
   },
   {
     title: "Save more",
     content:
       "We realize ideas from simple to complex, everything becomes easy to use.",
-    src: "/images/content/work-pic-3.png",
-    srcSet: "/images/content/work-pic-3@2x.png",
-    srcDark: "/images/content/work-pic-dark-3.png",
-    srcSetDark: "/images/content/work-pic-dark-3@2x.png",
+    src: workPic3,
+    srcSet: workPic3x2,
+    srcDark: workPicDark3,
+    srcSetDark: workPicDark3x2,
   },
 ];
 

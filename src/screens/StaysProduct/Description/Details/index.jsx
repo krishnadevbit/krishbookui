@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./Details.module.sass";
 import Icon from "../../../../components/Icon";
+import av1 from "/images/content/avatar.jpg";
 
 const parameters = [
   {
@@ -60,7 +61,7 @@ const Details = ({ className }) => {
       <div className={styles.profile}>
         <span>Hosted by</span>
         <div className={styles.avatar}>
-          <img src="/images/content/avatar.jpg" alt="Avatar" />
+          <img src={av1} alt="Avatar" />
         </div>
         <div className={styles.name}>Zoe Towne</div>
       </div>

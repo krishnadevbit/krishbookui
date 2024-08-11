@@ -5,6 +5,7 @@ import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateRange from "../../../components/DateRange";
 import Guests from "../../../components/Guests";
+import bgf from "/images/content/bg-flight-1.jpg";
 
 const Main = ({ items, value, setValue }) => {
   const handleClick = (value) => {
@@ -14,7 +15,7 @@ const Main = ({ items, value, setValue }) => {
   return (
     <div className={cn("section-mb80", styles.section)}>
       <div className={styles.bg}>
-        <img src="/images/content/bg-flight-1.jpg" alt="Flight" />
+        <img src={bgf} alt="Flight" />
       </div>
       <div className={cn("container", styles.container)}>
         <Panel

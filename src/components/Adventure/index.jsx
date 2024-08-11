@@ -4,37 +4,40 @@ import styles from "./Adventure.module.sass";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Icon from "../Icon";
+import Img1 from "/images/content/adventure-pic-1.svg";
+import Img2 from "/images/content/adventure-pic-2.svg";
+import Img3 from "/images/content/adventure-pic-3.svg";
 
 const items = [
   {
     title: "Luxury resort at the sea",
     places: "9,326 places",
-    image: "/images/content/adventure-pic-1.svg",
+    image: Img1,
   },
   {
     title: "Camping amidst the wild",
     places: "12,326 places",
-    image: "/images/content/adventure-pic-2.svg",
+    image: Img2,
   },
   {
     title: "Luxury resort at the sea",
     places: "5,326 places",
-    image: "/images/content/adventure-pic-3.svg",
+    image: Img3,
   },
   {
     title: "Luxury resort at the sea",
     places: "9,326 places",
-    image: "/images/content/adventure-pic-1.svg",
+    image: Img1,
   },
   {
     title: "Camping amidst the wild",
     places: "12,326 places",
-    image: "/images/content/adventure-pic-2.svg",
+    image: Img2,
   },
   {
     title: "Luxury resort at the sea",
     places: "5,326 places",
-    image: "/images/content/adventure-pic-3.svg",
+    image: Img3,
   },
 ];
 
@@ -95,7 +98,7 @@ const Adventure = () => {
                   <div className={styles.subtitle}>{x.title}</div>
                   <Link
                     className={cn("status", styles.places)}
-                    to="/stays-category"
+                    to="/krishbookui/stays-category"
                   >
                     {x.places}
                   </Link>

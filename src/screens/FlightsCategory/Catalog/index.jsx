@@ -10,7 +10,7 @@ import Filters from "./Filters";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/flights",
+    url: "/krishbookui/flights",
   },
   {
     title: "Flights",

@@ -12,15 +12,15 @@ import { cars1 } from "../../../mocks/cars";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Cars",
-    url: "/cars",
+    url: "/krishbookui/cars",
   },
   {
     title: "London",
-    url: "/cars-category-2",
+    url: "/krishbookui/cars-category-2",
   },
   {
     title: "Kings Cross",

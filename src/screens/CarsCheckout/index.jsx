@@ -8,7 +8,7 @@ import PriceDetails from "../../components/PriceDetails";
 const breadcrumbs = [
   {
     title: "Cars",
-    url: "/#",
+    url: "/krishbookui/cars",
   },
   {
     title: "Confirm and pay",

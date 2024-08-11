@@ -26,9 +26,7 @@ const Dropdown = ({ className, items, setValue }) => {
           <div className={styles.body}>
             {items.map((item, index) => (
               <NavLink
-                className={({ isActive }) =>
-                  cn(styles.item, { [styles.active]: isActive })
-                }
+                className={({ isActive }) => cn(styles.item)}
                 key={index}
                 to={item.url}
                 onClick={() => handleClick(item)}

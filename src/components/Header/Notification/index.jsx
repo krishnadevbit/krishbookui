@@ -4,6 +4,8 @@ import cn from "classnames";
 import OutsideClickHandler from "react-outside-click-handler";
 import styles from "./Notification.module.sass";
 import Icon from "../../Icon";
+import av1 from "/images/content/avatar-1.jpg";
+import av2 from "/images/content/avatar-2.jpg";
 
 const items = [
   {
@@ -11,16 +13,16 @@ const items = [
     content: "just sent you a message",
     date: "1 minute ago",
     color: "#3B71FE",
-    avatar: "/images/content/avatar-1.jpg",
-    url: "/messages",
+    avatar: av1,
+    url: "/krishbookui/messages",
   },
   {
     title: "Kohaku Tora",
     content: "just sent you a message",
     date: "30 minute ago",
     color: "#3B71FE",
-    avatar: "/images/content/avatar-1.jpg",
-    url: "/messages",
+    avatar: av2,
+    url: "/krishbookui/messages",
   },
 ];
 

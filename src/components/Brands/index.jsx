@@ -2,14 +2,15 @@ import React from "react";
 import cn from "classnames";
 import styles from "./Brands.module.sass";
 
-const brands = [
-  "/images/content/rotashow.svg",
-  "/images/content/waves.png",
-  "/images/content/velocity9.svg",
-  "/images/content/travelers.png",
-  "/images/content/goldlines.svg",
-  "/images/content/rotashow.svg",
-];
+// Named imports for images
+import rotashow from "/images/content/rotashow.svg";
+import waves from "/images/content/waves.png";
+import velocity9 from "/images/content/velocity9.svg";
+import travelers from "/images/content/travelers.png";
+import goldlines from "/images/content/goldlines.svg";
+
+// Array with imported images
+const brands = [rotashow, waves, velocity9, travelers, goldlines, rotashow];
 
 const Brands = () => {
   return (

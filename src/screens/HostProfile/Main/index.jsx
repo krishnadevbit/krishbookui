@@ -6,6 +6,8 @@ import Icon from "../../../components/Icon";
 import Details from "./Details";
 import List from "./List";
 import Comment from "../../../components/Comment";
+import profile from "/images/content/bg-profile-host.jpg";
+import av1 from "/images/content/avatar.jpg";
 
 const parametersUser = [
   {
@@ -21,15 +23,15 @@ const parametersUser = [
 const socials = [
   {
     title: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://x.com/krishnadevbit",
   },
   {
     title: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com/kksnl72/",
   },
   {
     title: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com/kksnl72/",
   },
 ];
 
@@ -38,7 +40,7 @@ const Main = () => {
     <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.photo}>
-          <img src="/images/content/bg-profile-host.jpg" alt="Nature" />
+          <img src={profile} alt="Nature" />
         </div>
         <div className={styles.row}>
           <Profile
@@ -49,7 +51,7 @@ const Main = () => {
           >
             <div className={styles.line}>
               <div className={styles.avatar}>
-                <img src="/images/content/avatar.jpg" alt="Avatar" />
+                <img src={av1} alt="Avatar" />
                 <div className={styles.check}>
                   <Icon name="tick" size="24" />
                 </div>

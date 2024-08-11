@@ -8,7 +8,7 @@ import Dropdown from "../Dropdown";
 
 const nav = ["Credit Card", "Paypal"];
 
-const logins = ["tam@ui8.net", "vova@ui8.net", "john@ui8.net"];
+const logins = ["krisbookui", "krishbookui", "krishbookui"];
 
 const ConfirmAndPay = ({ className, guests, title, buttonUrl }) => {
   const [activeIndex, setActiveIndex] = useState(0);

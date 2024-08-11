@@ -3,6 +3,7 @@ import cn from "classnames";
 import { Link } from "react-router-dom";
 import styles from "./View.module.sass";
 import Play from "../../../components/Play";
+import vid from "/images/content/video-bg.jpg";
 
 const View = () => {
   return (
@@ -17,13 +18,16 @@ const View = () => {
               Book a ticket <br></br>and just leave
             </h2>
           </div>
-          <Link className={cn("button", styles.button)} to="/flights-category">
+          <Link
+            className={cn("button", styles.button)}
+            to="/krishbookui/flights-category"
+          >
             Book now
           </Link>
         </div>
         <div className={styles.body}>
           <div className={styles.preview}>
-            <img src="/images/content/video-bg.jpg" alt="Video bg" />
+            <img src={vid} alt="Video bg" />
             <Play className="play" />
           </div>
         </div>

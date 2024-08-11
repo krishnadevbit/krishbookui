@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import styles from "./PayPal.module.sass";
 import TextInput from "../../TextInput";
 import Checkbox from "../../Checkbox";
+import paypal from "/images/content/paypal.svg";
+import payver from "/images/content/paypal-verified.png";
 
 const PayPal = ({ className, buttonUrl }) => {
   const [save, setSave] = useState(true);
@@ -13,7 +15,7 @@ const PayPal = ({ className, buttonUrl }) => {
       <div className={styles.line}>
         <div className={styles.subtitle}>Login to Paypal</div>
         <div className={styles.logo}>
-          <img src="/images/content/paypal.svg" alt="PayPal" />
+          <img src={paypal} alt="PayPal" />
         </div>
       </div>
       <div className={styles.fieldset}>
@@ -37,7 +39,7 @@ const PayPal = ({ className, buttonUrl }) => {
           Confirm and pay
         </Link>
         <div className={styles.verified}>
-          <img src="/images/content/paypal-verified.png" alt="PayPal" />
+          <img src={payver} alt="PayPal" />
         </div>
       </div>
       <Checkbox

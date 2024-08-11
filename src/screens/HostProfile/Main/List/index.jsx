@@ -5,21 +5,31 @@ import Card from "../../../../components/Card";
 import Icon from "../../../../components/Icon";
 import Slider from "react-slick";
 
+// Import images
+import cardPic1 from "/images/content/card-pic-1.jpg";
+import cardPic1x2 from "/images/content/card-pic-1@2x.jpg";
+import cardPic2 from "/images/content/card-pic-2.jpg";
+import cardPic2x2 from "/images/content/card-pic-2@2x.jpg";
+import cardPic3 from "/images/content/card-pic-3.jpg";
+import cardPic3x2 from "/images/content/card-pic-3@2x.jpg";
+import cardPic4 from "/images/content/card-pic-4.jpg";
+import cardPic4x2 from "/images/content/card-pic-4@2x.jpg";
+
 const locations = [
   {
     title: "Stays",
     list: [
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$356",
         priceActual: "$267",
         categoryText: "superhost",
         rating: "4.8",
         reviews: "12",
         cost: "$200 total",
-        src: "/images/content/card-pic-1.jpg",
-        srcSet: "/images/content/card-pic-1@2x.jpg",
-        url: "/stays-product",
+        src: cardPic1,
+        srcSet: cardPic1x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -32,16 +42,16 @@ const locations = [
         ],
       },
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$245",
         priceActual: "$167",
         categoryText: "superhost",
         rating: "4.9",
         reviews: "24",
         cost: "$100 total",
-        src: "/images/content/card-pic-2.jpg",
-        srcSet: "/images/content/card-pic-2@2x.jpg",
-        url: "/stays-product",
+        src: cardPic2,
+        srcSet: cardPic2x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -54,16 +64,16 @@ const locations = [
         ],
       },
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$356",
         priceActual: "$267",
         categoryText: "superhost",
         rating: "5.0",
         reviews: "102",
         cost: "$333 total",
-        src: "/images/content/card-pic-3.jpg",
-        srcSet: "/images/content/card-pic-3@2x.jpg",
-        url: "/stays-product",
+        src: cardPic3,
+        srcSet: cardPic3x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -76,16 +86,16 @@ const locations = [
         ],
       },
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$156",
         priceActual: "$267",
         categoryText: "superhost",
         rating: "4.5",
         reviews: "5",
         cost: "$230 total",
-        src: "/images/content/card-pic-4.jpg",
-        srcSet: "/images/content/card-pic-4@2x.jpg",
-        url: "/stays-product",
+        src: cardPic4,
+        srcSet: cardPic4x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -103,16 +113,16 @@ const locations = [
     title: "Experiences",
     list: [
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$245",
         priceActual: "$167",
         categoryText: "superhost",
         rating: "4.9",
         reviews: "24",
         cost: "$100 total",
-        src: "/images/content/card-pic-2.jpg",
-        srcSet: "/images/content/card-pic-2@2x.jpg",
-        url: "/stays-product",
+        src: cardPic2,
+        srcSet: cardPic2x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -125,16 +135,16 @@ const locations = [
         ],
       },
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$356",
         priceActual: "$267",
         categoryText: "superhost",
         rating: "5.0",
         reviews: "102",
         cost: "$333 total",
-        src: "/images/content/card-pic-3.jpg",
-        srcSet: "/images/content/card-pic-3@2x.jpg",
-        url: "/stays-product",
+        src: cardPic3,
+        srcSet: cardPic3x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",
@@ -147,16 +157,16 @@ const locations = [
         ],
       },
       {
-        title: "Entire serviced classy moutain house",
+        title: "Entire serviced classy mountain house",
         priceOld: "$156",
         priceActual: "$267",
         categoryText: "superhost",
         rating: "4.5",
         reviews: "5",
         cost: "$230 total",
-        src: "/images/content/card-pic-4.jpg",
-        srcSet: "/images/content/card-pic-4@2x.jpg",
-        url: "/stays-product",
+        src: cardPic4,
+        srcSet: cardPic4x2,
+        url: "/krishbookui/stays-product",
         options: [
           {
             title: "Free wifi",

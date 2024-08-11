@@ -5,28 +5,34 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Icon from "../Icon";
 import Loader from "../Loader";
+import liv1 from "/images/content/live-pic-1.png";
+import liv1x from "/images/content/live-pic-1@2x.png";
+import liv2 from "/images/content/live-pic-2.png";
+import liv2x from "/images/content/live-pic-2@2x.png";
+import liv3 from "/images/content/live-pic-3.png";
+import liv3x from "/images/content/live-pic-3@2x.png";
 
 const items = [
   {
     title: "Enjoy the great cold",
     content: "6,879 properties",
-    src: "/images/content/live-pic-1.png",
-    srcSet: "/images/content/live-pic-1@2x.png",
-    url: "/stays-category",
+    src: liv1,
+    srcSet: liv1x,
+    url: "/krishbookui/stays-category",
   },
   {
     title: "Pick up the earliest sunrise",
     content: "9,849 properties",
-    src: "/images/content/live-pic-2.png",
-    srcSet: "/images/content/live-pic-2@2x.png",
-    url: "/stays-category",
+    src: liv2,
+    srcSet: liv2x,
+    url: "/krishbookui/stays-category",
   },
   {
     title: "Unique stay",
     content: "12,879 properties",
-    src: "/images/content/live-pic-3.png",
-    srcSet: "/images/content/live-pic-3@2x.png",
-    url: "/stays-category",
+    src: liv3,
+    srcSet: liv3x,
+    url: "/krishbookui/stays-category",
   },
 ];
 

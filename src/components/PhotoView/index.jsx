@@ -72,7 +72,7 @@ const PhotoView = ({ title, initialSlide, visible, items, onClose }) => {
             <div className={styles.container}>
               <div className={styles.control}>
                 <Link
-                  to="/full-photo"
+                  to="/krishbookui/full-photo"
                   className={cn("button-stroke button-small", styles.button)}
                   onClick={onClose}
                 >

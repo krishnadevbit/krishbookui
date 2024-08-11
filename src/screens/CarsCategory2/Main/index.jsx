@@ -5,12 +5,12 @@ import styles from "./Main.module.sass";
 import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateRange from "../../../components/DateRange";
-
+import flight from "/images/content/bg-flight-1.jpg";
 const Main = () => {
   return (
     <div className={cn("section-mb80", styles.section)}>
       <div className={styles.bg}>
-        <img src="/images/content/bg-flight-1.jpg" alt="Flight" />
+        <img src={flight} alt="Flight" />
       </div>
       <div className={cn("container", styles.container)}>
         <Panel

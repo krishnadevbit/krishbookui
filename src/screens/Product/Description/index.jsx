@@ -64,7 +64,7 @@ const Description = ({ classSection }) => {
                   </div>
                   <Link
                     className={cn("button-stroke", styles.button)}
-                    to="/checkout"
+                    to="/krishbookui/checkout"
                   >
                     <span className={styles.cost}>
                       <span className={styles.price}>{x.price}</span> / person

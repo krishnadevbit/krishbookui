@@ -6,6 +6,8 @@ import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateRange from "../../../components/DateRange";
 import Travelers from "../../../components/Travelers";
+import mob from "/images/content/main-pic-mobile-1.jpg";
+import mainpic from "/images/content/main-pic-1.jpg";
 
 const Main = () => {
   return (
@@ -13,18 +15,18 @@ const Main = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.preview}>
           <picture>
-            <source
-              media="(max-width: 767px)"
-              srcSet="/images/content/main-pic-mobile-1.jpg"
-            />
-            <img src="/images/content/main-pic-1.jpg" alt="Main" />
+            <source media="(max-width: 767px)" srcSet={mob} />
+            <img src={mainpic} alt="Main" />
           </picture>
           <div className={styles.wrap}>
             <h1 className={cn("hero", styles.title)}>Air, sleep, dream</h1>
             <div className={cn("info", styles.info)}>
               Find and book a great experience.
             </div>
-            <Link className={cn("button", styles.button)} to="/stays-category">
+            <Link
+              className={cn("button", styles.button)}
+              to="/krishbookui/stays-category"
+            >
               Start your search
             </Link>
           </div>

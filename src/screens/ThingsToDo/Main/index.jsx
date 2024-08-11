@@ -6,6 +6,7 @@ import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateSingle from "../../../components/DateSingle";
 import Travelers from "../../../components/Travelers";
+import main5 from "/images/content/main-pic-5.jpg";
 
 const Main = () => {
   return (
@@ -17,14 +18,17 @@ const Main = () => {
               media="(max-width: 767px)"
               srcSet="/images/content/main-pic-mobile-5.jpg"
             />
-            <img src="/images/content/main-pic-5.jpg" alt="Main" />
+            <img src={main5} alt="Main" />
           </picture>
           <div className={styles.wrap}>
             <h1 className={cn("hero", styles.title)}>Things to do</h1>
             <div className={cn("info", styles.info)}>
               Find and book a great experience.
             </div>
-            <Link className={cn("button", styles.button)} to="/category">
+            <Link
+              className={cn("button", styles.button)}
+              to="/krishbookui/category"
+            >
               Start your search
             </Link>
           </div>

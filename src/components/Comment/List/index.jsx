@@ -4,11 +4,14 @@ import styles from "./List.module.sass";
 import Rating from "../../Rating";
 import Dropdown from "../../Dropdown";
 import Loader from "../../Loader";
+import av1 from "/images/content/avatar-1.jpg";
+import av2 from "/images/content/avatar-2.jpg";
+import av3 from "/images/content/avatar-3.jpg";
 
 const items = [
   {
     author: "Myrtie Runolfsson",
-    avatar: "/images/content/avatar-1.jpg",
+    avatar: av1,
     rating: "5",
     time: "about 1 hour ago",
     content:
@@ -16,7 +19,7 @@ const items = [
   },
   {
     author: "Osbaldo Beahan",
-    avatar: "/images/content/avatar-2.jpg",
+    avatar: av2,
     rating: "5",
     time: "about 1 hour ago",
     content:
@@ -24,7 +27,7 @@ const items = [
   },
   {
     author: "Tobin Hackett",
-    avatar: "/images/content/avatar-3.jpg",
+    avatar: av3,
     rating: "5",
     time: "1 day ago",
     content: "Best place I stayed in all of NZ. 🙌 🎉 😎",

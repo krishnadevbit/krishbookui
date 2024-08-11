@@ -7,27 +7,29 @@ import Icon from "../Icon";
 import Theme from "../Theme";
 import Form from "../Form";
 import { useDarkMode } from "../../Hooks/useDarkMode";
+import logodark from "/images/logo-dark.svg";
+import logoLight from "/images/logo-light.svg";
 
 const items = [
   {
     title: "Stays",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Flights",
-    url: "/flights",
+    url: "/krishbookui/flights",
   },
   {
     title: "Support",
-    url: "/support",
+    url: "/krishbookui/support",
   },
   {
     title: "Cars",
-    url: "/cars",
+    url: "/krishbookui/cars",
   },
   {
     title: "Things to do",
-    url: "/things-to-do",
+    url: "/krishbookui/things-to-do",
   },
 ];
 
@@ -44,11 +46,11 @@ const Footer = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.row}>
           <div className={styles.col}>
-            <Link className={styles.logo} to="/">
+            <Link className={styles.logo} to="/krishbookui">
               <Image
                 className={styles.pic}
-                src="/images/logo-dark.svg"
-                srcDark="/images/logo-light.svg"
+                src={logodark}
+                srcDark={logoLight}
                 alt="KRISHBOOK"
               />
             </Link>

@@ -68,7 +68,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/krishbookui"
           element={
             <Page>
               <Stays />
@@ -76,7 +76,7 @@ function App() {
           }
         />
         <Route
-          path="/stays-category"
+          path="/krishbookui/stays-category"
           element={
             <Page notAuthorized>
               <StaysCategory />
@@ -84,7 +84,7 @@ function App() {
           }
         />
         <Route
-          path="/stays-product"
+          path="/krishbookui/stays-product"
           element={
             <Page separatorHeader>
               <StaysProduct />
@@ -92,7 +92,7 @@ function App() {
           }
         />
         <Route
-          path="/stays-checkout"
+          path="/krishbookui/stays-checkout"
           element={
             <Page separatorHeader>
               <StaysCheckout />
@@ -100,7 +100,7 @@ function App() {
           }
         />
         <Route
-          path="/stays-checkout-complete"
+          path="/krishbookui/stays-checkout-complete"
           element={
             <Page separatorHeader>
               <StaysCheckoutComplete />
@@ -108,7 +108,7 @@ function App() {
           }
         />
         <Route
-          path="/full-photo"
+          path="/krishbookui/full-photo"
           element={
             <Page separatorHeader>
               <FullPhoto />
@@ -116,7 +116,7 @@ function App() {
           }
         />
         <Route
-          path="/flights"
+          path="/krishbookui/flights"
           element={
             <Page>
               <Flights />
@@ -124,7 +124,7 @@ function App() {
           }
         />
         <Route
-          path="/flights-category"
+          path="/krishbookui/flights-category"
           element={
             <Page>
               <FlightsCategory />
@@ -132,7 +132,7 @@ function App() {
           }
         />
         <Route
-          path="/things-to-do"
+          path="/krishbookui/things-to-do"
           element={
             <Page>
               <ThingsToDo />
@@ -140,7 +140,7 @@ function App() {
           }
         />
         <Route
-          path="/category"
+          path="/krishbookui/category"
           element={
             <Page>
               <Category />
@@ -148,7 +148,7 @@ function App() {
           }
         />
         <Route
-          path="/product"
+          path="/krishbookui/product"
           element={
             <Page separatorHeader>
               <Product />
@@ -156,7 +156,7 @@ function App() {
           }
         />
         <Route
-          path="/checkout"
+          path="/krishbookui/checkout"
           element={
             <Page separatorHeader>
               <Checkout />
@@ -164,7 +164,7 @@ function App() {
           }
         />
         <Route
-          path="/checkout-complete"
+          path="/krishbookui/checkout-complete"
           element={
             <Page separatorHeader>
               <CheckoutComplete />
@@ -172,7 +172,7 @@ function App() {
           }
         />
         <Route
-          path="/cars"
+          path="/krishbookui/cars"
           element={
             <Page>
               <Cars />
@@ -180,7 +180,7 @@ function App() {
           }
         />
         <Route
-          path="/cars-category"
+          path="/krishbookui/cars-category"
           element={
             <Page>
               <CarsCategory />
@@ -188,7 +188,7 @@ function App() {
           }
         />
         <Route
-          path="/cars-category-2"
+          path="/krishbookui/cars-category-2"
           element={
             <Page>
               <CarsCategory2 />
@@ -196,7 +196,7 @@ function App() {
           }
         />
         <Route
-          path="/cars-product"
+          path="/krishbookui/cars-product"
           element={
             <Page separatorHeader>
               <CarsProduct />
@@ -204,7 +204,7 @@ function App() {
           }
         />
         <Route
-          path="/cars-checkout"
+          path="/krishbookui/cars-checkout"
           element={
             <Page separatorHeader>
               <CarsCheckout />
@@ -212,7 +212,7 @@ function App() {
           }
         />
         <Route
-          path="/cars-checkout-complete"
+          path="/krishbookui/cars-checkout-complete"
           element={
             <Page separatorHeader>
               <CarsCheckoutComplete />
@@ -220,7 +220,7 @@ function App() {
           }
         />
         <Route
-          path="/messages"
+          path="/krishbookui/messages"
           element={
             <Page separatorHeader fooferHide wide>
               <MessageCenter />
@@ -228,7 +228,7 @@ function App() {
           }
         />
         <Route
-          path="/wishlists"
+          path="/krishbookui/wishlists"
           element={
             <Page separatorHeader>
               <Wishlists />
@@ -236,7 +236,7 @@ function App() {
           }
         />
         <Route
-          path="/bookings"
+          path="/krishbookui/bookings"
           element={
             <Page separatorHeader>
               <Bookings />
@@ -244,7 +244,7 @@ function App() {
           }
         />
         <Route
-          path="/your-trips"
+          path="/krishbookui/your-trips"
           element={
             <Page separatorHeader>
               <YourTrips />
@@ -252,7 +252,7 @@ function App() {
           }
         />
         <Route
-          path="/list-your-property"
+          path="/krishbookui/list-your-property"
           element={
             <Page separatorHeader>
               <ListYourProperty />
@@ -260,7 +260,7 @@ function App() {
           }
         />
         <Route
-          path="/profile"
+          path="/krishbookui/profile"
           element={
             <Page>
               <ProfileUser />
@@ -268,7 +268,7 @@ function App() {
           }
         />
         <Route
-          path="/host-profile"
+          path="/krishbookui/host-profile"
           element={
             <Page>
               <HostProfile />
@@ -276,7 +276,7 @@ function App() {
           }
         />
         <Route
-          path="/account-settings"
+          path="/krishbookui/account-settings"
           element={
             <Page>
               <AccountSettings />
@@ -284,14 +284,14 @@ function App() {
           }
         />
         <Route
-          path="/support"
+          path="/krishbookui/support"
           element={
             <Page>
               <Support />
             </Page>
           }
         />
-        <Route path="/pagelist" element={<PageList />} />
+        <Route path="/krishbookui/pagelist" element={<PageList />} />
       </Routes>
     </Router>
   );

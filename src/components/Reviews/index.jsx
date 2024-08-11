@@ -1,21 +1,22 @@
 import React, { useState } from "react";
 import cn from "classnames";
 import styles from "./Reviews.module.sass";
-
+import av1 from "/images/content/avatar-1.jpg";
+import av3 from "/images/content/avatar-3.jpg";
 const items = [
   {
     title: "Review about you",
     reviews: [
       {
         author: "Tobin Hackett",
-        avatar: "/images/content/avatar-1.jpg",
+        avatar: av1,
         time: "about 1 hour ago",
         content:
           "I enjoyed my communication with them and wish them only the best!",
       },
       {
         author: "Myrtie Runolfsson",
-        avatar: "/images/content/avatar-3.jpg",
+        avatar: av3,
         time: "1 day ago",
         content:
           "Kohaku and her husband were great guests. I enjoyed my communication with them and wish them only the best!",
@@ -27,14 +28,14 @@ const items = [
     reviews: [
       {
         author: "Myrtie Runolfsson",
-        avatar: "/images/content/avatar-3.jpg",
+        avatar: av3,
         time: "about 1 hour ago",
         content:
           "Kohaku and her husband were great guests. I enjoyed my communication with them and wish them only the best!",
       },
       {
         author: "Tobin Hackett",
-        avatar: "/images/content/avatar-1.jpg",
+        avatar: av1,
         time: "1 day ago",
         content:
           "I enjoyed my communication with them and wish them only the best!",

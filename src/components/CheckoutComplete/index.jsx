@@ -3,6 +3,7 @@ import cn from "classnames";
 import { Link } from "react-router-dom";
 import styles from "./CheckoutComplete.module.sass";
 import Icon from "../Icon";
+import av1 from "/images/content/avatar.jpg";
 
 const CheckoutComplete = ({ className, title, parameters, options, items }) => {
   return (
@@ -19,7 +20,7 @@ const CheckoutComplete = ({ className, title, parameters, options, items }) => {
         <div className={styles.author}>
           <div className={styles.text}>Hosted by</div>
           <div className={styles.avatar}>
-            <img src="/images/content/avatar.jpg" alt="Avatar" />
+            <img src={av1} alt="Avatar" />
           </div>
           <div className={styles.man}>Zoe Towne</div>
         </div>
@@ -69,10 +70,16 @@ const CheckoutComplete = ({ className, title, parameters, options, items }) => {
         ))}
       </div>
       <div className={styles.btns}>
-        <Link className={cn("button-stroke", styles.button)} to="/your-trips">
+        <Link
+          className={cn("button-stroke", styles.button)}
+          to="/krishbookui/your-trips"
+        >
           Your trips
         </Link>
-        <Link className={cn("button", styles.button)} to="/things-to-do">
+        <Link
+          className={cn("button", styles.button)}
+          to="/krishbookui/things-to-do"
+        >
           Explore things to do
         </Link>
       </div>

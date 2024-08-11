@@ -10,7 +10,7 @@ import { stays } from "../../../mocks/stays";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Your tríps",

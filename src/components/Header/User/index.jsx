@@ -4,6 +4,7 @@ import cn from "classnames";
 import OutsideClickHandler from "react-outside-click-handler";
 import styles from "./User.module.sass";
 import Icon from "../../Icon";
+import av2 from "/images/content/avatar-2.jpg";
 
 const User = ({ className, items }) => {
   const [visible, setVisible] = useState(false);
@@ -12,7 +13,7 @@ const User = ({ className, items }) => {
     <OutsideClickHandler onOutsideClick={() => setVisible(false)}>
       <div className={cn(styles.user, className, { [styles.active]: visible })}>
         <button className={styles.head} onClick={() => setVisible(!visible)}>
-          <img src="/images/content/avatar-2.jpg" alt="Avatar" />
+          <img src={av2} alt="Avatar" />
         </button>
         <div className={styles.body}>
           <div className={styles.group}>
@@ -43,7 +44,7 @@ const User = ({ className, items }) => {
                   [styles.active]: isActive,
                 })
               }
-              to="/account-settings"
+              to="/krishbookui/account-settings"
               onClick={() => setVisible(!visible)}
             >
               Account

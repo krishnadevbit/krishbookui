@@ -12,7 +12,7 @@ import { wishlists } from "../../../mocks/wishlists";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Wishlists",

@@ -16,7 +16,7 @@ const Actions = ({ className }) => {
         <Favorite className={styles.favorite} />
         <Link
           className={cn("button-circle-stroke button-small", styles.button)}
-          to="/stays-category"
+          to="/krishbookui/stays-category"
         >
           <Icon name="close" size="24" />
         </Link>

@@ -6,6 +6,15 @@ import { Link } from "react-router-dom";
 import Icon from "../Icon";
 import Image from "../Image";
 
+// Import images
+import travelPic1 from "/images/content/travel-pic-1.jpg";
+import travelPic1x2 from "/images/content/travel-pic-1@2x.jpg";
+import appraisalPic1 from "/images/content/appraisal-pic-1.png";
+import appraisalPic1x2 from "/images/content/appraisal-pic-1@2x.png";
+import appraisalPicDark1 from "/images/content/appraisal-pic-dark-1.png";
+import appraisalPicDark1x2 from "/images/content/appraisal-pic-dark-1@2x.png";
+
+// Define arrays
 const items = [
   {
     title: "Find trips that fit a flexible lifestyle",
@@ -29,44 +38,44 @@ const items = [
 
 const gallery = [
   {
-    src: "/images/content/travel-pic-1.jpg",
-    srcSet: "/images/content/travel-pic-1@2x.jpg",
+    src: travelPic1,
+    srcSet: travelPic1x2,
     images: [
       {
-        src: "/images/content/appraisal-pic-1.png",
-        srcSet: "/images/content/appraisal-pic-1@2x.png",
-        srcDark: "/images/content/appraisal-pic-dark-1.png",
-        srcSetDark: "/images/content/appraisal-pic-dark-1@2x.png",
+        src: appraisalPic1,
+        srcSet: appraisalPic1x2,
+        srcDark: appraisalPicDark1,
+        srcSetDark: appraisalPicDark1x2,
       },
       {
-        src: "/images/content/appraisal-pic-1.png",
-        srcSet: "/images/content/appraisal-pic-1@2x.png",
-        srcDark: "/images/content/appraisal-pic-dark-1.png",
-        srcSetDark: "/images/content/appraisal-pic-dark-1@2x.png",
+        src: appraisalPic1,
+        srcSet: appraisalPic1x2,
+        srcDark: appraisalPicDark1,
+        srcSetDark: appraisalPicDark1x2,
       },
       {
-        src: "/images/content/appraisal-pic-1.png",
-        srcSet: "/images/content/appraisal-pic-1@2x.png",
-        srcDark: "/images/content/appraisal-pic-dark-1.png",
-        srcSetDark: "/images/content/appraisal-pic-dark-1@2x.png",
+        src: appraisalPic1,
+        srcSet: appraisalPic1x2,
+        srcDark: appraisalPicDark1,
+        srcSetDark: appraisalPicDark1x2,
       },
     ],
   },
   {
-    src: "/images/content/travel-pic-1.jpg",
-    srcSet: "/images/content/travel-pic-1@2x.jpg",
+    src: travelPic1,
+    srcSet: travelPic1x2,
     images: [
       {
-        src: "/images/content/appraisal-pic-1.png",
-        srcSet: "/images/content/appraisal-pic-1@2x.png",
-        srcDark: "/images/content/appraisal-pic-dark-1.png",
-        srcSetDark: "/images/content/appraisal-pic-dark-1@2x.png",
+        src: appraisalPic1,
+        srcSet: appraisalPic1x2,
+        srcDark: appraisalPicDark1,
+        srcSetDark: appraisalPicDark1x2,
       },
       {
-        src: "/images/content/appraisal-pic-1.png",
-        srcSet: "/images/content/appraisal-pic-1@2x.png",
-        srcDark: "/images/content/appraisal-pic-dark-1.png",
-        srcSetDark: "/images/content/appraisal-pic-dark-1@2x.png",
+        src: appraisalPic1,
+        srcSet: appraisalPic1x2,
+        srcDark: appraisalPicDark1,
+        srcSetDark: appraisalPicDark1x2,
       },
     ],
   },
@@ -123,7 +132,10 @@ const Travel = () => {
                 </div>
               ))}
             </div>
-            <Link className={cn("button", styles.button)} to="/stays-category">
+            <Link
+              className={cn("button", styles.button)}
+              to="/krishbookui/stays-category"
+            >
               Start your search
             </Link>
           </div>

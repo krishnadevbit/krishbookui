@@ -107,7 +107,7 @@ const Description = ({ classSection }) => {
                 </div>
                 <Link
                   className={cn("button", styles.button)}
-                  to="/cars-checkout"
+                  to="/krishbookui/cars-checkout"
                 >
                   <span>Rent this car</span>
                   <Icon name="bag" size="16" />

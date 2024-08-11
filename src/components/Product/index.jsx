@@ -5,6 +5,7 @@ import Control from "../Control";
 import Icon from "../Icon";
 import Actions from "../Actions";
 import Gallery from "./Gallery";
+import av1 from "/images/content/avatar-1.jpg";
 
 const Product = ({
   classSection,
@@ -28,7 +29,7 @@ const Product = ({
             <h1 className={cn("h2", styles.title)}>{title}</h1>
             <div className={styles.line}>
               <div className={styles.avatar}>
-                <img src="/images/content/avatar-1.jpg" alt="Avatar" />
+                <img src={av1} alt="Avatar" />
               </div>
               <div className={styles.rating}>
                 <Icon name="star" size="20" />

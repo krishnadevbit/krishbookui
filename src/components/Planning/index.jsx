@@ -4,24 +4,40 @@ import styles from "./Planning.module.sass";
 import Image from "../Image";
 import Form from "../Form";
 
+// Import images
+import planningPic1 from "/images/content/planning-pic-1.png";
+import planningPic1x2 from "/images/content/planning-pic-1@2x.png";
+import planningPicDark1 from "/images/content/planning-pic-dark-1.png";
+import planningPicDark1x2 from "/images/content/planning-pic-dark-1@2x.png";
+
+import planningPic2 from "/images/content/planning-pic-2.png";
+import planningPic2x2 from "/images/content/planning-pic-2@2x.png";
+import planningPicDark2 from "/images/content/planning-pic-dark-2.png";
+import planningPicDark2x2 from "/images/content/planning-pic-dark-2@2x.png";
+
+import planningPic3 from "/images/content/planning-pic-3.png";
+import planningPic3x2 from "/images/content/planning-pic-3@2x.png";
+import planningPicDark3 from "/images/content/planning-pic-dark-3.png";
+import planningPicDark3x2 from "/images/content/planning-pic-dark-3@2x.png";
+
 const gallery = [
   {
-    src: "/images/content/planning-pic-1.png",
-    srcSet: "/images/content/planning-pic-1@2x.png",
-    srcDark: "/images/content/planning-pic-dark-1.png",
-    srcSetDark: "/images/content/planning-pic-dark-1@2x.png",
+    src: planningPic1,
+    srcSet: planningPic1x2,
+    srcDark: planningPicDark1,
+    srcSetDark: planningPicDark1x2,
   },
   {
-    src: "/images/content/planning-pic-2.png",
-    srcSet: "/images/content/planning-pic-2@2x.png",
-    srcDark: "/images/content/planning-pic-dark-2.png",
-    srcSetDark: "/images/content/planning-pic-dark-2@2x.png",
+    src: planningPic2,
+    srcSet: planningPic2x2,
+    srcDark: planningPicDark2,
+    srcSetDark: planningPicDark2x2,
   },
   {
-    src: "/images/content/planning-pic-3.png",
-    srcSet: "/images/content/planning-pic-3@2x.png",
-    srcDark: "/images/content/planning-pic-dark-3.png",
-    srcSetDark: "/images/content/planning-pic-dark-3@2x.png",
+    src: planningPic3,
+    srcSet: planningPic3x2,
+    srcDark: planningPicDark3,
+    srcSetDark: planningPicDark3x2,
   },
 ];
 

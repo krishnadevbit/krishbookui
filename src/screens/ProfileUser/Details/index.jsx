@@ -29,7 +29,7 @@ const Details = ({ className }) => {
         <div className={styles.welcome}>Hi, I’m Kohaku Tora</div>
         <Link
           className={cn("button-stroke button-small", styles.button)}
-          to="/account-settings"
+          to="/krishbookui/account-settings"
         >
           Edit your profile
         </Link>

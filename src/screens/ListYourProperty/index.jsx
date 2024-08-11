@@ -12,7 +12,7 @@ import Preview from "./Preview";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "List your property",

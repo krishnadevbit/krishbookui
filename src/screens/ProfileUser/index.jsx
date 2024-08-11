@@ -8,9 +8,17 @@ import Modal from "../../components/Modal";
 import Background from "./Background";
 import Details from "./Details";
 
+// Import images
+import avatarGirl from "/images/content/avatar-girl.jpg";
+import avatar1 from "/images/content/avatar-variant-1.jpg";
+import avatar2 from "/images/content/avatar-variant-2.jpg";
+import avatar3 from "/images/content/avatar-variant-3.jpg";
+import avatar4 from "/images/content/avatar-variant-4.jpg";
+import avatar5 from "/images/content/avatar-variant-5.jpg";
+
 const parametersUser = [
   {
-    title: "Indentity verified",
+    title: "Identity verified",
     icon: "tick",
   },
   {
@@ -22,25 +30,19 @@ const parametersUser = [
 const socials = [
   {
     title: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://x.com/krishnadevbit",
   },
   {
     title: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com/kksnl72/",
   },
   {
     title: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com/kksnl72/",
   },
 ];
 
-const avatars = [
-  "/images/content/avatar-variant-1.jpg",
-  "/images/content/avatar-variant-2.jpg",
-  "/images/content/avatar-variant-3.jpg",
-  "/images/content/avatar-variant-4.jpg",
-  "/images/content/avatar-variant-5.jpg",
-];
+const avatars = [avatar1, avatar2, avatar3, avatar4, avatar5];
 
 const ProfileUser = () => {
   const [visible, setVisible] = useState(false);
@@ -57,7 +59,7 @@ const ProfileUser = () => {
               buttonText="Message"
             >
               <div className={cn(styles.avatar, styles.big)}>
-                <img src="/images/content/avatar-girl.jpg" alt="Avatar" />
+                <img src={avatarGirl} alt="Avatar" />
               </div>
               <button
                 className={styles.update}

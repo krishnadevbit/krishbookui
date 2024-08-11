@@ -6,18 +6,16 @@ import Panel from "../../../components/Panel";
 import Location from "../../../components/Location";
 import DateRange from "../../../components/DateRange";
 import Guests from "../../../components/Guests";
-
+import mob3 from "/images/content/main-pic-mobile-3.jpg";
+import main3 from "/images/content/main-pic-3.jpg";
 const Main = () => {
   return (
     <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.preview}>
           <picture>
-            <source
-              media="(max-width: 767px)"
-              srcSet="/images/content/main-pic-mobile-3.jpg"
-            />
-            <img src="/images/content/main-pic-3.jpg" alt="Main" />
+            <source media="(max-width: 767px)" srcSet={mob3} />
+            <img src={main3} alt="Main" />
           </picture>
           <div className={styles.wrap}>
             <h1 className={cn("hero", styles.title)}>Air, sleep, dream</h1>
@@ -26,7 +24,7 @@ const Main = () => {
             </div>
             <Link
               className={cn("button", styles.button)}
-              to="/flights-category"
+              to="/krishbookui/flights-category"
             >
               Start your search
             </Link>

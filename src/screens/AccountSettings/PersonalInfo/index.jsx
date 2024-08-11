@@ -20,7 +20,7 @@ const PersonalInfo = () => {
         <div className={cn("h2", styles.title)}>Personal info</div>
         <Link
           className={cn("button-stroke button-small", styles.button)}
-          to="/profile"
+          to="/krishbookui/profile"
         >
           View profile
         </Link>

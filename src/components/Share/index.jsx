@@ -5,8 +5,8 @@ import Icon from "../Icon";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 import OutsideClickHandler from "react-outside-click-handler";
 
-const shareUrlFacebook = "https://ui8.net";
-const shareUrlTwitter = "https://ui8.net";
+const shareUrlFacebook = "https://www.facebook.com/kksnl72/";
+const shareUrlTwitter = "https://x.com/krishnadevbit";
 
 const Share = ({ className, openUp, darkButton }) => {
   const [visible, setVisible] = useState(false);

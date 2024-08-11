@@ -4,30 +4,51 @@ import styles from "./Newsletter.module.sass";
 import Image from "../Image";
 import Form from "../Form";
 
+// Import images
+import newsletterPic1 from "/images/content/newsletter-pic-1.png";
+import newsletterPic1x2 from "/images/content/newsletter-pic-1@2x.png";
+import newsletterPicDark1 from "/images/content/newsletter-pic-dark-1.png";
+import newsletterPicDark1x2 from "/images/content/newsletter-pic-dark-1@2x.png";
+
+import newsletterPic2 from "/images/content/newsletter-pic-2.png";
+import newsletterPic2x2 from "/images/content/newsletter-pic-2@2x.png";
+import newsletterPicDark2 from "/images/content/newsletter-pic-dark-2.png";
+import newsletterPicDark2x2 from "/images/content/newsletter-pic-dark-2@2x.png";
+
+import newsletterPic3 from "/images/content/newsletter-pic-3.png";
+import newsletterPic3x2 from "/images/content/newsletter-pic-3@2x.png";
+import newsletterPicDark3 from "/images/content/newsletter-pic-dark-3.png";
+import newsletterPicDark3x2 from "/images/content/newsletter-pic-dark-3@2x.png";
+
+import newsletterPic4 from "/images/content/newsletter-pic-4.png";
+import newsletterPic4x2 from "/images/content/newsletter-pic-4@2x.png";
+import newsletterPicDark4 from "/images/content/newsletter-pic-dark-4.png";
+import newsletterPicDark4x2 from "/images/content/newsletter-pic-dark-4@2x.png";
+
 const gallery = [
   {
-    src: "/images/content/newsletter-pic-1.png",
-    srcSet: "/images/content/newsletter-pic-1@2x.png",
-    srcDark: "/images/content/newsletter-pic-dark-1.png",
-    srcSetDark: "/images/content/newsletter-pic-dark-1@2x.png",
+    src: newsletterPic1,
+    srcSet: newsletterPic1x2,
+    srcDark: newsletterPicDark1,
+    srcSetDark: newsletterPicDark1x2,
   },
   {
-    src: "/images/content/newsletter-pic-2.png",
-    srcSet: "/images/content/newsletter-pic-2@2x.png",
-    srcDark: "/images/content/newsletter-pic-dark-2.png",
-    srcSetDark: "/images/content/newsletter-pic-dark-2@2x.png",
+    src: newsletterPic2,
+    srcSet: newsletterPic2x2,
+    srcDark: newsletterPicDark2,
+    srcSetDark: newsletterPicDark2x2,
   },
   {
-    src: "/images/content/newsletter-pic-3.png",
-    srcSet: "/images/content/newsletter-pic-3@2x.png",
-    srcDark: "/images/content/newsletter-pic-dark-3.png",
-    srcSetDark: "/images/content/newsletter-pic-dark-3@2x.png",
+    src: newsletterPic3,
+    srcSet: newsletterPic3x2,
+    srcDark: newsletterPicDark3,
+    srcSetDark: newsletterPicDark3x2,
   },
   {
-    src: "/images/content/newsletter-pic-4.png",
-    srcSet: "/images/content/newsletter-pic-4@2x.png",
-    srcDark: "/images/content/newsletter-pic-dark-4.png",
-    srcSetDark: "/images/content/newsletter-pic-dark-4@2x.png",
+    src: newsletterPic4,
+    srcSet: newsletterPic4x2,
+    srcDark: newsletterPicDark4,
+    srcSetDark: newsletterPicDark4x2,
   },
 ];
 

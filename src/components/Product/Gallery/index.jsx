@@ -46,7 +46,7 @@ const Gallery = ({ className, items, type }) => {
                   <img src={x} alt="Product Details"></img>
                 </div>
                 <Link
-                  to="/full-photo"
+                  to="/krishbookui/full-photo"
                   className={cn("button-white button-small", styles.button)}
                 >
                   <Icon name="image" size="16" />

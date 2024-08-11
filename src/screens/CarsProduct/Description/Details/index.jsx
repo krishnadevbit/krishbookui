@@ -2,7 +2,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./Details.module.sass";
 import Icon from "../../../../components/Icon";
-
+import avatar from "/images/content/avatar.jpg";
 const options = [
   {
     title: "Put your car feature",
@@ -33,7 +33,7 @@ const Details = ({ className }) => {
       <div className={styles.profile}>
         <span>Car owner</span>
         <div className={styles.avatar}>
-          <img src="/images/content/avatar.jpg" alt="Avatar" />
+          <img src={avatar} alt="Avatar" />
         </div>
         <div className={styles.name}>Colleen Jast</div>
       </div>

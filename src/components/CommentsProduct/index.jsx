@@ -4,7 +4,7 @@ import styles from "./CommentsProduct.module.sass";
 import Profile from "../Profile";
 import Comment from "../Comment";
 import Icon from "../Icon";
-
+import av from "/images/content/avatar.jpg";
 const CommentsProduct = ({
   className,
   parametersUser,
@@ -24,7 +24,7 @@ const CommentsProduct = ({
         >
           <div className={styles.line}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar.jpg" alt="Avatar" />
+              <img src={av} alt="Avatar" />
               <div className={styles.check}>
                 <Icon name="check" size="12" />
               </div>

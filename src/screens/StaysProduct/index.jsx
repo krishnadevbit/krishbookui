@@ -14,15 +14,15 @@ import { browse2 } from "../../mocks/browse";
 const breadcrumbs = [
   {
     title: "Home",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "Stays",
-    url: "/",
+    url: "/krishbookui/",
   },
   {
     title: "New Zealand",
-    url: "/stays-category",
+    url: "/krishbookui/stays-category",
   },
   {
     title: "South Island",
@@ -61,15 +61,15 @@ const parametersUser = [
 const socials = [
   {
     title: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://x.com/krishnadevbit",
   },
   {
     title: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com/kksnl72/",
   },
   {
     title: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com/kksnl72/",
   },
 ];
 

@@ -27,12 +27,12 @@ const Profile = ({
         {info && <div className={styles.info}>{info}</div>}
         <a
           className={styles.site}
-          href="https://ui8.net"
+          href="/krishbookui"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon name="globe" size="16" />
-          <span>https://ui8.net</span>
+          <span>https://krishbookui</span>
         </a>
         <div className={styles.control}>
           <div className={styles.btns}>

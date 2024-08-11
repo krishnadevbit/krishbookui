@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./Messages.module.sass";
 import Form from "../../../components/Form";
 import Icon from "../../../components/Icon";
+import av1 from "/images/content/avatar-1.jpg";
 
 const Messages = ({ className, visible, setVisible }) => {
   const [message, setMessage] = useState("");
@@ -21,7 +22,7 @@ const Messages = ({ className, visible, setVisible }) => {
         <div className={styles.list}>
           <div className={styles.author}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar-1.jpg" alt="Avatar" />
+              <img src={av1} alt="Avatar" />
             </div>
             <div className={styles.message}>
               Described by Queenstown House & Garden magazine as having 'one of
@@ -33,7 +34,7 @@ const Messages = ({ className, visible, setVisible }) => {
           <div className={styles.message}>I would like to ask something.</div>
           <div className={styles.author}>
             <div className={styles.avatar}>
-              <img src="/images/content/avatar-1.jpg" alt="Avatar" />
+              <img src={av1} alt="Avatar" />
             </div>
             <div className={styles.message}>Hi John, how are you?</div>
           </div>

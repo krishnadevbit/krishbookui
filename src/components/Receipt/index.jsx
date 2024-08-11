@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./Receipt.module.sass";
 import Icon from "../Icon";
+import av1 from "/images/content/avatar.jpg";
 
 const Receipt = ({
   className,
@@ -27,7 +28,7 @@ const Receipt = ({
           </div>
         </div>
         <div className={styles.avatar}>
-          <img src="/images/content/avatar.jpg" alt="Avatar" />
+          <img src={av1} alt="Avatar" />
           <div className={styles.check}>
             <Icon name="check" size="12" />
           </div>
