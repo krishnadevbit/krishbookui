@@ -4,18 +4,22 @@ import styles from "./Preview.module.sass";
 import Icon from "../../../components/Icon";
 import Card from "../../../components/Card";
 
+// Import images
+import cardPic from "/images/content/card-pic-5.jpg";
+import cardPic2x from "/images/content/card-pic-5@2x.jpg";
+
 const item = [
   {
-    title: "Entire serviced classy moutain house",
+    title: "Entire serviced classy mountain house",
     priceOld: "$356",
     priceActual: "$267",
     categoryText: "superhost",
     rating: "4.8",
     reviews: "12",
     cost: "$200 total",
-    src: "/images/content/card-pic-5.jpg",
-    srcSet: "/images/content/card-pic-5@2x.jpg",
-    url: "/",
+    src: cardPic,
+    srcSet: cardPic2x,
+    url: "/krishbookui/",
     options: [
       {
         title: "Free wifi",

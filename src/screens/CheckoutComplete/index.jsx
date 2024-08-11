@@ -5,6 +5,10 @@ import Control from "../../components/Control";
 import CheckoutSlider from "./CheckoutSlider";
 import CheckoutComplete from "../../components/CheckoutComplete";
 
+// Import images
+import sliderPic from "/images/content/slider-pic-3.jpg";
+import sliderPic2x from "/images/content/slider-pic-3@2x.jpg";
+
 const breadcrumbs = [
   {
     title: "Things to do",
@@ -17,16 +21,16 @@ const breadcrumbs = [
 
 const gallery = [
   {
-    src: "/images/content/slider-pic-3.jpg",
-    srcSet: "/images/content/slider-pic-3@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
   {
-    src: "/images/content/slider-pic-3.jpg",
-    srcSet: "/images/content/slider-pic-3@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
   {
-    src: "/images/content/slider-pic-3.jpg",
-    srcSet: "/images/content/slider-pic-3@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
 ];
 

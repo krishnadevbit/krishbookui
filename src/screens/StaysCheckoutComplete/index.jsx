@@ -1,10 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes for type checking
 import cn from "classnames";
 import styles from "./StaysCheckoutComplete.module.sass";
 import Control from "../../components/Control";
 import CheckoutSlider from "./CheckoutSlider";
 import CheckoutComplete from "../../components/CheckoutComplete";
 
+// Import images
+import sliderPic from "/images/content/slider-pic-1.jpg";
+import sliderPic2x from "/images/content/slider-pic-1@2x.jpg";
+
+// Define breadcrumbs
 const breadcrumbs = [
   {
     title: "Spectacular views of Queenstown",
@@ -19,21 +25,23 @@ const breadcrumbs = [
   },
 ];
 
+// Define gallery items
 const gallery = [
   {
-    src: "/images/content/slider-pic-1.jpg",
-    srcSet: "/images/content/slider-pic-1@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
   {
-    src: "/images/content/slider-pic-1.jpg",
-    srcSet: "/images/content/slider-pic-1@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
   {
-    src: "/images/content/slider-pic-1.jpg",
-    srcSet: "/images/content/slider-pic-1@2x.jpg",
+    src: sliderPic,
+    srcSet: sliderPic2x,
   },
 ];
 
+// Define parameters
 const parameters = [
   {
     title: "1 bedroom",
@@ -43,6 +51,7 @@ const parameters = [
   },
 ];
 
+// Define options
 const options = [
   {
     title: "Booking code:",
@@ -66,6 +75,7 @@ const options = [
   },
 ];
 
+// Define items
 const items = [
   {
     title: "Dates",
@@ -73,10 +83,11 @@ const items = [
   },
   {
     title: "Guests",
-    content: "2 guest",
+    content: "2 guests",
   },
 ];
 
+// Define the component
 const StaysCheckoutComplete = () => {
   return (
     <div className={cn("section-mb80", styles.section)}>
@@ -103,6 +114,11 @@ const StaysCheckoutComplete = () => {
       </div>
     </div>
   );
+};
+
+// Define prop types
+StaysCheckoutComplete.propTypes = {
+  className: PropTypes.string,
 };
 
 export default StaysCheckoutComplete;
